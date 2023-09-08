@@ -22,7 +22,7 @@ DIRNAME="$(dirname "$0")"
 . "$DIRNAME/libtest.sh"
 
 SUMHASHER="md5sum sha1sum sha256sum sha384sum sha512sum"
-HMACHASHER="sha1hmac sha256hmac sha384hmac sha512hmac"
+HMACHASHER="sha1hmac sha256hmac sha384hmac sha512hmac fipshmac"
 CHKFILE="${TMPDIR}/chk.$$"
 ANOTHER="${TMPDIR}/test.$$"
 
